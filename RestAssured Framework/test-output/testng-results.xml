@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-14T12:56:49 IST" name="Suite" finished-at="2024-03-14T12:57:20 IST" duration-ms="31444">
+    <groups>
+    </groups>
+    <test started-at="2024-03-14T12:56:49 IST" name="Test" finished-at="2024-03-14T12:57:20 IST" duration-ms="31444">
+      <class name="api.testcases.ItemTest2">
+        <test-method is-config="true" signature="generateTestData()[pri:0, instance:api.testcases.ItemTest2@428640fa]" started-at="2024-03-14T12:57:18 IST" name="generateTestData" finished-at="2024-03-14T12:57:18 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestData -->
+        <test-method signature="testCreateItem()[pri:1, instance:api.testcases.ItemTest2@428640fa]" started-at="2024-03-14T12:57:18 IST" name="testCreateItem" description="Adding items" finished-at="2024-03-14T12:57:19 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateItem -->
+        <test-method signature="testGetItemsData()[pri:2, instance:api.testcases.ItemTest2@428640fa]" started-at="2024-03-14T12:57:19 IST" name="testGetItemsData" description="Fetching items" finished-at="2024-03-14T12:57:19 IST" depends-on-methods="api.testcases.ItemTest2.testCreateItem" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetItemsData -->
+        <test-method signature="testUpdateItem()[pri:3, instance:api.testcases.ItemTest2@428640fa]" started-at="2024-03-14T12:57:19 IST" name="testUpdateItem" description="Updating item by id" finished-at="2024-03-14T12:57:20 IST" depends-on-methods="api.testcases.ItemTest2.testCreateItem" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateItem -->
+        <test-method signature="testDeleteItem()[pri:4, instance:api.testcases.ItemTest2@428640fa]" started-at="2024-03-14T12:57:20 IST" name="testDeleteItem" description="Deleting item by id" finished-at="2024-03-14T12:57:20 IST" depends-on-methods="api.testcases.ItemTest2.testCreateItem" duration-ms="616" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [500]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [500]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1382)
+at org.testng.Assert.assertEquals(Assert.java:1428)
+at api.testcases.ItemTest2.testDeleteItem(ItemTest2.java:125)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteItem -->
+        <test-method signature="testDeleteItemById()[pri:4, instance:api.testcases.ItemTest2@428640fa]" started-at="2024-03-14T12:57:20 IST" name="testDeleteItemById" description="Deleting item by id" finished-at="2024-03-14T12:57:20 IST" depends-on-methods="api.testcases.ItemTest2.testCreateItem" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteItemById -->
+      </class> <!-- api.testcases.ItemTest2 -->
+      <class name="api.testcases.ItemTest">
+        <test-method is-config="true" signature="generateTestData()[pri:0, instance:api.testcases.ItemTest@4b8ee4de]" started-at="2024-03-14T12:56:52 IST" name="generateTestData" finished-at="2024-03-14T12:57:04 IST" duration-ms="11754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestData -->
+        <test-method signature="testCreateItem()[pri:1, instance:api.testcases.ItemTest@4b8ee4de]" started-at="2024-03-14T12:57:04 IST" name="testCreateItem" description="Adding item" finished-at="2024-03-14T12:57:17 IST" duration-ms="12776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateItem -->
+        <test-method signature="testGetItemsData()[pri:2, instance:api.testcases.ItemTest@4b8ee4de]" started-at="2024-03-14T12:57:17 IST" name="testGetItemsData" description="Fetching all items" finished-at="2024-03-14T12:57:18 IST" depends-on-methods="api.testcases.ItemTest.testCreateItem" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetItemsData -->
+        <test-method signature="testUpdateItem()[pri:3, instance:api.testcases.ItemTest@4b8ee4de]" started-at="2024-03-14T12:57:18 IST" name="testUpdateItem" description="Updating item by id" finished-at="2024-03-14T12:57:18 IST" depends-on-methods="api.testcases.ItemTest.testCreateItem" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateItem -->
+        <test-method signature="testDeleteItem()[pri:4, instance:api.testcases.ItemTest@4b8ee4de]" started-at="2024-03-14T12:57:18 IST" name="testDeleteItem" description="Deleting item by id" finished-at="2024-03-14T12:57:18 IST" depends-on-methods="api.testcases.ItemTest.testCreateItem" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteItem -->
+      </class> <!-- api.testcases.ItemTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

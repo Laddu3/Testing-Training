@@ -1,0 +1,25 @@
+Create a class Student having following members.
+ 
+private ArrayList names – Arraylist of String type
+public void setNames() – method to scan names of student and set in names arraylist
+public void searchName(String name) – method to search a student by name
+public void searchName(int index) – method to print student name at an index
+public void printNames( ) – method to print all names using Iterator
+public void removeName( String stuName ) – method to delete a name
+Create a class ArrayListDemo having main method. Create an object of Student class and call all methods.
+
+
+
+
+Create a class Student having following members:
+ 
+private HashMap empNames – HashMap having rollno as key  and name as value. Key and value are of type String
+ 
+public void setNames( ) – method to set names in HashMap.
+public void printNames( ) – method to print all names
+public void getName( String key ) – method to print value of a given key
+public void printNamesKeySet( ) – method to print all values by using keyset 
+ of HashMap.
+public void printSize( ) – method to print size of HashMap
+public void remove( String key ) – method to remove a value of a given key
+Create a class TestHashMap having main method.  Create an object of Employee class and perform different operations on it.

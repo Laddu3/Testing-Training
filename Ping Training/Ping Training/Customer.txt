@@ -1,0 +1,31 @@
+Concept:   Exception Handling
+Objective: At the end of the assignment, participants will be able to:
+Handle the pre-defined exceptions
+Create custom exceptions
+Problems:
+Write a program in Java to initialize an array of 10 integers. Handle ArrayIndexOutOfBoundsException, so that any such problem doesn't cause abnormal termination of program.
+ 
+Write a java program with a method that throws an exception but not handled inside. Call the method from main.  Let the main method handle the exception appropriately.
+
+
+
+
+ 
+Create a class Customer having following members:
+ 
+private String custNo
+private String custName
+private String category
+ 
+Parameterized constructor to initialize all instance variables
+Getter methods for all instance variables
+ 
+Perform following validations in the constructor
+ 
+custNo must start with ‘C’ or ‘c’
+custName must be atleast of 4 characters
+category must be either ‘Platinum’, ‘Gold’ or ‘Silver ‘
+ 
+When any of these validations fail, then raise a user defined exception InvalidInputException
+ 
+Create a class TestCustomer having main method.  Ask user to enter customer details.  Create an object of Customer and perform validations.  Print details of customer.

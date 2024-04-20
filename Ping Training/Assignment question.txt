@@ -1,0 +1,10 @@
+1. Write a test to verify that fetching a post from https://jsonplaceholder.typicode.com/posts/1 returns a response body where the userId is 1.
+ 
+2. Ensure that a GET request to https://jsonplaceholder.typicode.com/posts/1 returns a Content-Type header of application/json; charset=utf-8.
+ 
+3. Using path parameters, write a test to fetch a comment with id 1 from https://jsonplaceholder.typicode.com/comments/{id} and validate the email in the response is Eliseo@gardner.biz.
+ 
+4. Write a test to search for posts by userId using query parameters. Use https://jsonplaceholder.typicode.com/posts with userId=1 and verify that the response contains multiple posts.
+ 
+5. Perform a GET request to https://jsonplaceholder.typicode.com/posts/1 and extract the title of the post from the response.
+has context menu

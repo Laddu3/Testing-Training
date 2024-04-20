@@ -1,0 +1,32 @@
+[INFO ] 2024-03-11 11:04:30.744 [main] RestAssuredAutomationFramework_test - Create User executed.
+[INFO ] 2024-03-11 11:04:32.233 [main] RestAssuredAutomationFramework_test - Get User Data executed.
+[INFO ] 2024-03-11 11:04:35.114 [main] RestAssuredAutomationFramework_test - Update User executed.
+[INFO ] 2024-03-11 11:04:36.603 [main] RestAssuredAutomationFramework_test - Delete User executed.
+[INFO ] 2024-03-11 11:05:34.778 [main] RestAssuredAutomationFramework_test - Create User executed.
+[INFO ] 2024-03-11 11:05:36.252 [main] RestAssuredAutomationFramework_test - Get User Data executed.
+[INFO ] 2024-03-11 11:05:39.217 [main] RestAssuredAutomationFramework_test - Update User executed.
+[INFO ] 2024-03-11 11:05:40.774 [main] RestAssuredAutomationFramework_test - Delete User executed.
+[INFO ] 2024-03-11 11:06:54.413 [main] RestAssuredAutomationFramework_test - Create User executed.
+[INFO ] 2024-03-11 11:06:55.958 [main] RestAssuredAutomationFramework_test - Get User Data executed.
+[INFO ] 2024-03-11 11:06:58.895 [main] RestAssuredAutomationFramework_test - Update User executed.
+[INFO ] 2024-03-11 11:07:00.367 [main] RestAssuredAutomationFramework_test - Delete User executed.
+[INFO ] 2024-03-11 11:11:40.094 [main] RestAssuredAutomationFramework_test - Create User executed.
+[INFO ] 2024-03-11 11:53:24.100 [main] RestAssuredAutomationFramework_test - Create User executed.
+[INFO ] 2024-03-11 11:58:45.346 [main] RestAssuredAutomationFramework_test - Create User executed.
+[INFO ] 2024-03-11 12:00:13.489 [main] RestAssuredAutomationFramework_test - Create User executed.
+[INFO ] 2024-03-11 12:02:40.845 [main] RestAssuredAutomationFramework_test - Create User executed.
+[INFO ] 2024-03-11 12:02:42.379 [main] RestAssuredAutomationFramework_test - Get Pet Data executed.
+[INFO ] 2024-03-11 12:02:44.886 [main] RestAssuredAutomationFramework_test - Delete User executed.
+[INFO ] 2024-03-11 12:03:52.145 [main] RestAssuredAutomationFramework_test - Create User executed.
+[INFO ] 2024-03-11 12:03:53.386 [main] RestAssuredAutomationFramework_test - Get Pet Data executed.
+[INFO ] 2024-03-11 12:05:25.593 [main] RestAssuredAutomationFramework_test - Create User executed.
+[INFO ] 2024-03-11 12:05:27.017 [main] RestAssuredAutomationFramework_test - Get Pet Data executed.
+[INFO ] 2024-03-11 12:05:29.341 [main] RestAssuredAutomationFramework_test - Update Pet executed.
+[INFO ] 2024-03-11 12:06:23.983 [main] RestAssuredAutomationFramework_test - Create User executed.
+[INFO ] 2024-03-11 12:06:25.338 [main] RestAssuredAutomationFramework_test - Get Pet Data executed.
+[INFO ] 2024-03-11 12:06:27.602 [main] RestAssuredAutomationFramework_test - Update Pet executed.
+[INFO ] 2024-03-11 12:06:28.425 [main] RestAssuredAutomationFramework_test - Delete User executed.
+[INFO ] 2024-03-11 14:37:14.591 [main] RestAssuredAutomationFramework_test - Create User executed.
+[INFO ] 2024-03-11 14:37:16.549 [main] RestAssuredAutomationFramework_test - Create User executed.
+[INFO ] 2024-03-11 14:39:32.271 [main] RestAssuredAutomationFramework_test - Create User executed.
+[INFO ] 2024-03-11 14:39:34.393 [main] RestAssuredAutomationFramework_test - Create User executed.
